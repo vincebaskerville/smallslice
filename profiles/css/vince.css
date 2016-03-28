@@ -1,6 +1,6 @@
 body {
 	/*background-color: pink;*/
-	/*font-family: proxima-nova-1,proxima-nova-2,Tahoma,Helvetica,Verdana,sans-serif !important;*/
+	font-family: Tahoma,Helvetica,Verdana,sans-serif !important;
 }
 
 .container-fluid {
@@ -22,7 +22,6 @@ body {
 
 		.sign-up {
 			float: right;
-			/*margin-top: 10px;*/
 			padding: 10px;
 			font-size: 1em;
 			font-weight: 700;
@@ -63,7 +62,7 @@ body {
 
 	.read_blog {
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 1em;
 		line-height: 38px;
 		padding: 0 20px;
 		color: #fff;
@@ -100,33 +99,78 @@ body {
 
 	/*// title*/
 	.name-container {
-		padding-top: 330px;
+		padding-top: 370px;
 		text-align: center;
 	} 
 		.name {
 			color: #fff;
 			text-shadow: 1px 1px 1px rgba(0,0,0,.7);
-			font-size: 20px;
+			font-size: 1.2em;
 			font-weight: 700;
 			text-transform: uppercase;
 			line-height: 1.2;
 			letter-spacing: 2px;
-			/*margin-bottom: 5px;*/
+			margin-bottom: 5px;
 		}
 		.title {
 			color: #fff;
 			text-shadow: 1px 1px 1px rgba(0,0,0,.7);
-			font-size: 16px;
+			font-size: 1em;
 			font-weight: 700;
 			line-height: 1.2;
 			margin: 0px;
 		}
 
+/*////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////*/
+
 @media screen and (min-width: 768px) {
 	
+
+	.hide {
+		display: none !important;
+	}
+		.hide-for-mobile {
+			display: block;
+		}
+
+	/*//CTA button types*/
+	.main-CTA {
+		padding: 20px 0 20px 0;
+		text-align: left;
+	}
+
+	.read_blog {
+		font-size: 1.4em;
+		padding: 10px 20px;
+	}
+
+	/*// title*/
+	.name-container {
+		padding-top: 0px;
+		text-align: left;
+	} 
+		.name {
+			color: #444;
+			text-shadow: none;
+			font-size: 1.6em;
+		}
+		.title {
+			color: #888;
+			text-shadow: none;
+			font-size: 1.4em;
+			font-weight: normal;
+			line-height: 1.4;
+			margin: 0px;
+		}
+
 	.leftPic {
 		background-size: cover;
 		height: 100vh;
+	}
+
+	.right-wrap {
+		padding: 100px 60px;
 	}
 
 	.rightContent {
