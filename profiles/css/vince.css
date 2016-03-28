@@ -131,10 +131,15 @@ body {
 
 	span.brand-name {
 		display: inline;
+		color: #fff;
 	}
+		span.brand-name #slice-url {
+			margin-left: 2px;
+		}
+
 		a, .brand-name:hover {
-			color: #FF823E;
-			text-decoration: none;
+			color: #eee;
+			text-decoration: none !important;
 		}
 
 	.sign-up {
