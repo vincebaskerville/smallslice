@@ -10,6 +10,25 @@ body {
 
 /*@media for mobile is default*/
 
+	.navbar {
+		background-color: transparent;
+		border: none;
+	}
+		.navbar-brand {
+			font-size: 1em;
+			color: #fff !important;
+			padding: 10px;
+			height: 100%;
+		}
+
+		#scrolled {
+			background-color: #fff;
+			opacity: .8;
+			transition: all .2s ease-in;
+				-webkit-transition: all .2s ease-in;
+				-moz-transition: all .2s ease-in;
+		}
+
 	/*//CTA button types*/
 	.main-CTA {
 		padding: 20px;
