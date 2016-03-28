@@ -13,21 +13,47 @@ body {
 	.navbar {
 		background-color: transparent;
 		border: none;
+		padding: 10px;
 	}
-		.navbar-brand {
-			font-size: 1em;
-			color: #fff !important;
-			padding: 10px;
-			height: 100%;
+
+		span.brand-name {
+			display: none;
 		}
 
-		#scrolled {
-			background-color: #fff;
-			opacity: .8;
+		.sign-up {
+			float: right;
+			/*margin-top: 10px;*/
+			padding: 10px;
+			font-size: 1em;
+			font-weight: 700;
+			color: #fff;
+			height: 100%;
+			background-color: rgba(255,255,255,.2);
+			border-radius: 10px;
+		}
+
+		.scrolled {
+			background-color: rgba(255,255,255,.8);
+
 			transition: all .2s ease-in;
 				-webkit-transition: all .2s ease-in;
 				-moz-transition: all .2s ease-in;
 		}
+			.scrolled span.brand-name {
+				display: inline;
+				color: #DC5D17;
+				font-weight: 700;
+				letter-spacing: 2px;
+			}
+
+			.scrolled a.sign-up {
+				color: #444;
+				background-color: transparent;
+				border: 1px solid rgba(0,0,0,.2);
+				transition: all .2s ease-in;
+					-webkit-transition: all .2s ease-in;
+					-moz-transition: all .2s ease-in;
+			}
 
 	/*//CTA button types*/
 	.main-CTA {

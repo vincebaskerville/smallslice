@@ -6,12 +6,12 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $(".navbar").css('background-color', '#fff');
-          $(".navbar").attr('id', 'scrolled');
+          $(".navbar").css('background-color', 'rgba(255,255,255,.8)');
+          $(".navbar").addClass('scrolled');
           
        } else {
           $('.navbar').css('background-color', 'transparent');
-          $(".navbar").removeAttr('id', 'scrolled');
+          $(".navbar").removeClass('scrolled');
        }
    });
     }
